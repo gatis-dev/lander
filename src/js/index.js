@@ -22,7 +22,7 @@ loader.add('rocket', img.rocket).load((loader, resources) => {
     rocket.y = app.renderer.height / 2;
  
     // Rotate around the center
-    rocket.anchor.x = 0.5;
+    rocket.anchor.x = 0.5; //bebebe
     rocket.anchor.y = 0.65;
  
     // Add the bunny to the scene we are building.

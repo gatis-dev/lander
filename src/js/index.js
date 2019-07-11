@@ -31,6 +31,6 @@ loader.add('rocket', img.rocket).load((loader, resources) => {
     // Listen for frame updates
     app.ticker.add(() => {
          // each frame we spin the rocket around a bit
-        rocket.rotation += 0.0155;
+        rocket.rotation += 0.01554444;
     });
 });
